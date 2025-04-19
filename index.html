@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZahidCodes.com</title>
+  <link rel="icon" href="files/mylogo.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" href="mylogo.png">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center p-5 bg-gray-800 shadow-md">
+    <p class="text-2xl font-bold">ZahidCodes.com</p>
+    <div class="hidden md:flex space-x-6">
+      <a href="index.html" class="hover:text-blue-400">Home</a>
+      <a href="#about" class="hover:text-blue-400">About</a>
+      <a href="#projects" class="hover:text-blue-400">Projects</a>
+      <a href="MY_CV.pdf" target="_blank" class="hover:text-blue-400">View Resume</a>
+    </div>
+    <button id="menu-toggle" class="md:hidden text-2xl">☰</button>
+  </nav>
+  
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col bg-gray-800 p-5 space-y-4 text-center">
+    <a href="index.html" class="hover:text-blue-400">Home</a>
+    <a href="#about" class="hover:text-blue-400">About</a>
+    <a href="#projects" class="hover:text-blue-400">Projects</a>
+    <a href="MY_CV.pdf" target="_blank" class="hover:text-blue-400">View Resume</a>
+  </div>
+
+
+        <!-- Left Side - Image -->
+        <div class="flex justify-center">
+            <img src="mypic.jpg" alt="Profile Picture"
+                class=" rounded-full shadow-lg w-24 md:w-36  pt-10 object-cover">
+        </div>
+  <!-- Intro Section -->
+  <section class="text-center py-16">
+    <h1 class="text-4xl font-bold">Hi! I am <span class="text-blue-400 auto-type"></span></h1>
+    <p class="mt-4 text-lg">Front-End Developer | ReactJS | Crafting sleek, responsive web experiences.</p>
+  </section>
+  <!--Picture-->
+  
+  <!-- Social Icons -->
+  <div class="flex justify-center items-center space-x-6 text-3xl">
+    <a href="https://www.t.me/zahi_26" target="_blank" class="hover:text-blue-400"><i class="fa-brands fa-telegram"></i></a>
+    <i class="fa-brands fa-instagram hover:text-pink-400"></i>
+    <i class="fa-brands fa-facebook-f hover:text-blue-500"></i>
+    <a href="https://www.linkedin.com/in/zahid-manzoor-6416b3189" target="_blank" class="hover:text-blue-500"><i class="fa-brands fa-linkedin-in"></i></a>
+    <i class="fa-brands fa-github hover:text-gray-500"></i>
+    <a href="https://wa.me/+916006642157" target="_blank" class="hover:text-green-500"><i class="fa-brands fa-whatsapp"></i></a>
+    <a href="/files/MY_CV.pdf" target="_blank" download class="hover:text-yellow-400"><i class="fa-solid fa-download"></i></a>
+  </div>
+
+  <!-- About Section -->
+  <section class="py-16 px-6 md:px-20" id="about">
+    <h1 class="text-3xl font-bold text-center mb-6">About Me</h1>
+    <p class="text-lg leading-relaxed text-gray-300">I'm <strong>Zahid Qureshi</strong>, a passionate <span class="text-blue-400">Front-End Developer</span> specializing in <strong>ReactJS, HTML, CSS, and JavaScript</strong>. My journey into tech has been shaped by diverse experiences across <strong>banking, customer support, teaching, and healthcare</strong>, refining my problem-solving abilities and adaptability.</p>
+    <p class="mt-4">Currently, I’m pursuing a <strong>BBA in Computer Application</strong>, blending business insights with technical expertise to craft dynamic and user-friendly web applications.</p>
+    <p class="mt-4">I thrive on <span class="text-blue-400">learning, innovating, and transforming ideas into reality</span>. Whether it’s optimizing UI performance, ensuring seamless user experiences, or solving real-world challenges through code, I love what I do.</p>
+    <p class="mt-4">When I’m not coding, you’ll find me <strong>exploring new tech trends, teaching, or working on creative projects</strong>. Let’s build something amazing together! 🚀</p>
+  </section>
+
+  <!--Highlight my Skills-->
+  <div class="container mx-auto p-8">
+    <h1 class="text-3xl font-bold text-center mb-6">My Skills</h1>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg text-center">
+            <h2 class="text-xl font-semibold">HTML</h2>
+            <p class="mt-2 text-gray-400">Structuring the web with clean, semantic markup.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg text-center">
+            <h2 class="text-xl font-semibold">CSS & Tailwind</h2>
+            <p class="mt-2 text-gray-400">Crafting responsive and modern UIs with Tailwind CSS.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg text-center">
+            <h2 class="text-xl font-semibold">JavaScript</h2>
+            <p class="mt-2 text-gray-400">Adding interactivity and dynamic behavior to web pages.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg text-center">
+            <h2 class="text-xl font-semibold">React.js</h2>
+            <p class="mt-2 text-gray-400">Building fast and scalable web applications.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg text-center">
+            <h2 class="text-xl font-semibold">Git & GitHub</h2>
+            <p class="mt-2 text-gray-400">Version control and collaborative development.</p>
+        </div>
+        <div class="p-6 bg-gray-800 rounded-xl shadow-lg text-center">
+            <h2 class="text-xl font-semibold">Responsive Design</h2>
+            <p class="mt-2 text-gray-400">Ensuring accessibility across all devices.</p>
+        </div>
+    </div>
+</div>
+
+  <!--portfolio project section -->
+  <header class="bg-gray-900 text-white py-6 text-center text-3xl font-bold">
+    Projects
+</header>
+
+
+<section  id="projects"class="max-w-4xl mx-auto mt-10 p-6 bg-gray-600 shadow-lg rounded-lg">
+    <!-- <h2 class="text-xl font-semibold">Projects</h2> -->
+    <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div class="p-4 bg-gray-600 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold text-green-400">Personal Portfolio Website</h3>
+            <p class="text-white">Developed a responsive portfolio showcasing my front-end development skills, projects, and experience. Built with HTML, Tailwind CSS, and JavaScript, it offers a clean UI, smooth navigation, and an engaging user experience. </p>
+        </div>
+        <div class="p-4 bg-gray-600 rounded-lg shadow-md">
+            <h3 class="text-lg font-semibold text-green-400">The Shoe Company</h3>
+            <p class="text-white">Currently developing a modern, responsive front-end for a shoe company using HTML, Tailwind CSS, and JavaScript. Focused on sleek UI, smooth navigation, and a seamless shopping experience.</p>
+        </div>
+    </div>
+  </section>
+  <!--Form to chat-->
+  <div class="flex justify-center items-center min-h-screen bg-gray-900">
+    <div class="w-full max-w-lg p-8 bg-gray-700 shadow-lg rounded-lg text-black">
+        <h2 class="text-2xl font-semibold text-white text-center mb-6">Contact Me</h2>
+        <form action="https://formsubmit.co/zahidqureshi1003@gmail.com" method="POST" class="space-y-4">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+            <div>
+                <label for="name" class="block text-white font-medium">Name</label>
+                <input type="text" id="name" name="name" required
+                    class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="email" class="block text-white font-medium">Email</label>
+                <input type="email" id="email" name="email" required
+                    class="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+            </div>
+            <div>
+                <label for="message" class="block text-white font-medium">Message</label>
+                <textarea id="message" name="message" rows="4" required
+                    class="w-full p-2 border border-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+            </div>
+            <button type="submit"
+                class="w-full bg-blue-500 text-white font-semibold py-2 rounded-md hover:bg-blue-600 transition">Send Message</button>
+        </form>
+    </div>
+</div>
+
+
+<!--footer-->
+<footer class="text-center text-white py-4 bg-gray-900 mt-10">
+    &copy; 2025 Zahid Qureshi<br>
+    Made with &hearts; by Zahid Qureshi
+</footer>
+  
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('.auto-type', {
+      strings: ['Zahid Qureshi.', 'a Front-End Engineer.'],
+      typeSpeed: 120,
+      backSpeed: 100,
+      loop: true,
+    });
+    
+    document.getElementById('menu-toggle').addEventListener('click', function() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
